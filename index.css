@@ -1,0 +1,112 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+
+header,
+section{
+    overfow-x: hidden;
+}
+#findYour {
+    border: 1px solid black;
+    display: table;
+    margin: 0 auto;
+    padding: 5px;
+  }
+header a{
+    font-family:var(Single-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+header{
+    background: linear-gradient(
+        to bottom,
+        #0f0e5cd0, #79b4f8a6
+    );
+}
+
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7{
+ padding: 22vmin 1vmin;
+ padding-bottom: 35vmin;
+ color: white;
+}
+
+header .row .col-md-5 img{
+    width: 90%;
+}
+
+header.container.col-md-7h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+header.container.col-md-7 h1{
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header.container.col-md-7{
+    padding: 1vmin 5vmin;
+}
+
+header.container.col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+ 
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
